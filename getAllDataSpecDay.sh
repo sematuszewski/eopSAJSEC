@@ -1,4 +1,6 @@
 #!/bin/bash
+### SAJ DATA COLLECTOR BY SEMATpl - Sebastian Matuszewski ###
+
 plantUid=YOUR_PLANT_UID
 moduleSn=YOUT_SAJSEC_SN
 pageSize=1000

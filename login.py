@@ -1,3 +1,7 @@
+### SAJ DATA COLLECTOR BY SEMATpl - Sebastian Matuszewski ###
+
+
+
 from seleniumwire import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
