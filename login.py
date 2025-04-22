@@ -22,8 +22,8 @@ username_field = driver.find_element(By.CSS_SELECTOR, "div:nth-child(1) > .el-fo
 password_field = driver.find_element(By.CSS_SELECTOR, ".form-item-input:nth-child(1) > .el-input__inner")  # Password field
 
 #User credentials
-username_field.send_keys("YOUR_EMAIL_ADDRESS")  # YOUR EMAIL
-password_field.send_keys("YOUR_PASSWORD")  # YOUR PASSWORD
+username_field.send_keys("YOUR EMAIL")  # YOUR EMAIL
+password_field.send_keys("YOUR PASSWORD")  # YOUR PASSWORD
 
 # Find login button and click
 login_button = driver.find_element(By.CSS_SELECTOR, ".submit")  # Login button selector
@@ -44,8 +44,8 @@ if "https://eop.saj-electric.com/index" in driver.current_url:  # Site for login
     print("Cookies saved to file.")
 
 
-#for request in driver.requests:
-#     print(request.headers['Authorization'])
+    for request in driver.requests:
+       print(request.headers['Authorization'])
 
 
 else:
