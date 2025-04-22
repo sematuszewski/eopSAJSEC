@@ -49,3 +49,6 @@ getAllDataSpecDay.sh YYYY-MM-DD
 
 getAllDataSpecDay.sh 2025-01-01
 ```
+
+
+### NOTE: the script runs slowly because of the way it authenticates. The script just works, but it is not efficient and needs to be expanded and optimized.
