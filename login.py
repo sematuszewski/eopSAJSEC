@@ -37,11 +37,11 @@ time.sleep(5)
 if "https://eop.saj-electric.com/index" in driver.current_url:  # Site for login check.
     print("Login successful!")
 
-    cookies = driver.get_cookies()  # Pobranie cookies
+    cookies = driver.get_cookies()  # Get cookies
     with open("cookies.pkl", "wb") as cookie_file:
         pickle.dump(cookies, cookie_file)
 
-    print("Cookies zapisane do pliku.")
+    print("Cookies saved to file.")
 
 
 #for request in driver.requests:
